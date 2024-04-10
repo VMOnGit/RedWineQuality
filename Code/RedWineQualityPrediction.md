@@ -72,7 +72,7 @@ sns.heatmap(df.corr(), annot = True)
 - Volatile acidity and Citric Acid
 - Density and Fixed Acidity
 - free Sulphur Dioxide and Total Sulphur Dioxide
-- We must be cautious with these variables as they can cause errors in the model. This issue can be fixed by using removing some of the variables or using Lasso regression.
+- We must be cautious with these variables as they can cause errors in the model.
 
 
 ```python
@@ -100,7 +100,7 @@ plt.hist(df['quality'])
     
 
 
-## Thee output data "quality" ranges from 5 to 8, so we will split 3 to 5 as bad wine and 6-8 as good wine.
+## The output data "quality" ranges from 5 to 8, so we will split 3 to 5 as bad wine and 6-8 as good wine.
 
 # Data Processing
 
